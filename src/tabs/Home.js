@@ -1,3 +1,11 @@
+import CarouselPromotions from "../components/CarouselPromotions";
 export const Home = () => {
-    return <h1> Home page</h1>
+  return (
+    <>
+    <CarouselPromotions/>
+    <p>mov</p>
+    <CarouselPromotions/>
+    </>
+    
+  );
 }

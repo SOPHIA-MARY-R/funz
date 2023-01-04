@@ -20,13 +20,13 @@ class Navbar extends Component{
                             </span>
                         </div>
                         <div className="Menu">
-                            <h5><span id="menuSpan"><i class="fa-solid fa-bars"></i></span></h5>
+                            <h6><span id="menuSpan"><i class="fa-solid fa-bars"></i></span></h6>
                         </div>
                         <div className="Auth">
-                            <h5><span id="authSpan">Sign in</span></h5>
+                            <h6><span id="authSpan">Sign in</span></h6>
                         </div>
                         <div className="City">
-                            <h5><span id="citySpan">Coimbatore   <i class="fa fa-caret-down" aria-hidden="true"></i></span></h5>
+                            <h6><span id="citySpan">Coimbatore   <i class="fa fa-caret-down" aria-hidden="true"></i></span></h6>
                         </div>
                     </div>
                 </div>

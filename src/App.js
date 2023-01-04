@@ -1,4 +1,6 @@
 import './App.css';
+//export default allows you to rename the components at the time of import, so they are not enclosed within braces
+//export const strictly sticks with the component name, u should only use the exact name within braces
 import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //routing library for React
 import { Home } from "./tabs/Home";
