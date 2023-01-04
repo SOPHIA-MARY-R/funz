@@ -1,0 +1,125 @@
+/*
+.NavContainer{
+    border: 1px solid black;
+}
+*/
+.UpperContainer{
+    /*border: 1px solid brown;*/
+    background-color:rgb(31, 40, 40);
+}
+.LowerContainer{
+    /*border: 1px solid brown;*/
+    background-color:rgb(18, 20, 20);
+}
+.UContents{
+    margin: 0px 50px 0px 50px;
+    display:flow-root;
+    /*border: 1px solid blue;*/
+}
+.LContents{
+    margin: 0px 50px 0px 50px;
+    /*border: 1px solid blue;*/
+    display:flow-root;
+}
+.Logo{
+    /*border: 1px solid black;*/
+    color: white;
+    display:unordered-list-item;
+    float: left;
+    padding: 0 5 0 5;
+}
+h4 span{
+    background-color:rgb(198, 43, 43);
+    padding: 3px;
+    border-radius: 5px;
+    color: white;
+}
+.City{
+    /*border: 1px solid black;*/
+    display:unordered-list-item;
+    float: right;
+}
+.Auth{
+    /*border: 1px solid black;*/
+    display:unordered-list-item;
+    float:right;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#authSpan{
+    background-color:rgb(198, 43, 43);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+}
+#citySpan{
+    /*background-color:gray;*/
+    color: white;
+    border-radius: 2px;
+    padding: 8px 20px 8px 20px;
+}
+.Menu{
+    /*border: 1px solid black;*/
+    color: white;
+    display:unordered-list-item;
+    float:right;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#menuSpan{
+    padding: 0px 20px 0px 20px;
+    font-size: large;
+}
+.SearchIcon{
+    color: black;
+    padding: 6px;
+    /*border: 1px solid black;*/
+    display: unordered-list-item;
+    float: left;
+}
+.Searchbar{
+    height: 100%;
+    width: 45%;
+    margin: 13px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display:unordered-list-item;
+    float:left;
+    background-color: aliceblue;
+}
+#searchInput{
+    padding: 10px;
+    border: none;
+    display: unordered-list-item;
+    float: left;
+    background-color: aliceblue;
+}
+#searchInput:focus{
+    outline: none;
+}
+.Movies, .Stream, .Events, .Plays, .Sports, .Activities, .Buzz{
+    display: unordered-list-item;
+    float: left;
+    /*border: 1px solid black;*/
+    padding: 9px;
+    text-decoration: none;
+    font-size: small;
+    color: white;
+}
+.List, .Corporates, .Offers, .Gift{
+    display: unordered-list-item;
+    float: right;
+    /*border: 1px solid black;*/
+    padding: 9px;
+    text-decoration: none;
+    font-size: small;
+    color: white;
+}
+/*
+.LeftMenus{
+    display: unordered-list-item;
+    float: left;
+    border: 1px solid black;
+    padding: 4px 9px 4px 9px;
+    text-decoration: none;
+}*/
