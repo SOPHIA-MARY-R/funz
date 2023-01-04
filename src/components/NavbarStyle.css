@@ -104,6 +104,9 @@ h4 span{
     padding: 9px;
     text-decoration: none;
     font-size: small;
+    color:lightgray;
+}
+.Movies:hover, .Stream:hover, .Events:hover, .Plays:hover, .Sports:hover, .Activities:hover, .Buzz:hover{
     color: white;
 }
 .List, .Corporates, .Offers, .Gift{
@@ -113,13 +116,8 @@ h4 span{
     padding: 9px;
     text-decoration: none;
     font-size: small;
+    color: lightgrey;
+}
+.List:hover, .Corporates:hover, .Offers:hover, .Gift:hover{
     color: white;
 }
-/*
-.LeftMenus{
-    display: unordered-list-item;
-    float: left;
-    border: 1px solid black;
-    padding: 4px 9px 4px 9px;
-    text-decoration: none;
-}*/
