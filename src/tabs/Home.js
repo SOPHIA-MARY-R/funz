@@ -1,10 +1,12 @@
-import CarouselPromotions from "../components/CarouselPromotions";
+import Carousels from "../components/Carousels";
+import {MultiCarousels} from "../components/MultiCarousels";
+
 export const Home = () => {
   return (
     <>
-    <CarouselPromotions/>
-    <p>mov</p>
-    <CarouselPromotions/>
+    <Carousels/>
+    <h3 className="Topics">Recommended Movies</h3>
+    <MultiCarousels/>
     </>
     
   );

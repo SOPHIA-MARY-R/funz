@@ -23,7 +23,7 @@ class Navbar extends Component{
                             <h6><span id="menuSpan"><i class="fa-solid fa-bars"></i></span></h6>
                         </div>
                         <div className="Auth">
-                            <h6><span id="authSpan">Sign in</span></h6>
+                            <Link to="/signin"><span id="authSpan">Sign in</span></Link>
                         </div>
                         <div className="City">
                             <h6><span id="citySpan">Coimbatore   <i class="fa fa-caret-down" aria-hidden="true"></i></span></h6>

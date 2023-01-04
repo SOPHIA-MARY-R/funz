@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import "./CarouselsStyle.css";
 
-function CarouselPromotions() {
+function Carousels() {
   return (
     <Carousel variant="black">
       <Carousel.Item interval={1000}>
@@ -29,4 +29,4 @@ function CarouselPromotions() {
   );
 }
 
-export default CarouselPromotions;
+export default Carousels;
