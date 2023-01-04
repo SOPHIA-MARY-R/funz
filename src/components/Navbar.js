@@ -9,7 +9,7 @@ class Navbar extends Component{
                 <div className="UpperContainer">
                     <div className="UContents">
                         <div className="Logo">
-                            <h4>book<span>my</span>show</h4>
+                            <Link to="/" className="Home"><h4>book<span>my</span>show</h4></Link>
                         </div>
                         <div className="Searchbar">
                             <span className="SearchIcon">

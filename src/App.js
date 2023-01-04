@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //routing library for React
+import { Home } from "./tabs/Home";
 import { Movies } from "./tabs/Movies";
 import { Stream } from "./tabs/Stream";
 import { Events } from "./tabs/Events";
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Navbar/> {/*displayed in all pages*/}
         <Routes>
+          <Route path="/" element={<Home/>}/>
           <Route path="/movies" element={<Movies/>}/>
           <Route path="/stream" element={<Stream/>}/>
           <Route path="/events" element={<Events/>}/>
