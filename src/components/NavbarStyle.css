@@ -47,15 +47,14 @@ h4 span{
     border-radius: 5px;
     margin-left: 5px;
     margin-top: 25px;
-    text-decoration: none;
 }
 #authSpan{
     background-color:rgb(198, 43, 43);
     color: white;
     border-radius: 5px;
     padding: 5px 8px 5px 8px;
-    
 }
+#AuthLink{text-decoration: none;}
 #citySpan{
     /*background-color:gray;*/
     color: white;
@@ -77,14 +76,13 @@ h4 span{
 }
 .SearchIcon{
     color: black;
-    padding: 6px;
+    padding: 4px;
     /*border: 1px solid black;*/
     display: unordered-list-item;
     float: left;
     margin-top: 5px;
 }
 .Searchbar{
-    height: 100%;
     width: 45%;
     margin: 13px;
     border: 1px solid gray;

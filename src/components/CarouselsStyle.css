@@ -1,0 +1,34 @@
+.card-image {
+    object-fit: cover;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    margin: auto 1rem;
+    font-family: arial;
+}
+.textHolder{
+    padding: 8px;
+}
+.cert{
+    text-transform: uppercase;
+    font-size: small;
+    margin: 0;
+}
+.lang{
+    font-size: small;
+    margin: 0;
+}
+.Url{
+    border-radius: 5px;
+    margin: 2px;
+}
+#urlSpan{
+    background-color:aliceblue;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px;
+}
+#movieLink{
+    text-decoration: none;
+}

@@ -23,7 +23,7 @@ class Navbar extends Component{
                             <h6><span id="menuSpan"><i class="fa-solid fa-bars"></i></span></h6>
                         </div>
                         <div className="Auth">
-                            <Link to="/signin"><span id="authSpan">Sign in</span></Link>
+                            <Link to="/signin" id="AuthLink"><span id="authSpan">Sign in</span></Link>
                         </div>
                         <div className="City">
                             <h6><span id="citySpan">Coimbatore   <i class="fa fa-caret-down" aria-hidden="true"></i></span></h6>
@@ -35,7 +35,7 @@ class Navbar extends Component{
                         {NavData.map((item, index) => {
                             return(
                                 <div className="Menus" key={index}>
-                                    <Link to={item.link}s className={item.classname}>{item.head}</Link>
+                                    <Link to={item.link} className={item.classname}>{item.head}</Link>
                                 </div>
                             );
                         })}
