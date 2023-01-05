@@ -76,7 +76,7 @@ h4 span{
 }
 .SearchIcon{
     color: black;
-    padding: 4px;
+    padding: 6px 6px 6px 15px;
     /*border: 1px solid black;*/
     display: unordered-list-item;
     float: left;
@@ -103,6 +103,9 @@ h4 span{
 }
 .Home{
     text-decoration: none;
+    color: white;
+}
+.Home:hover{
     color: white;
 }
 .Movies, .Stream, .Events, .Plays, .Sports, .Activities, .Buzz{

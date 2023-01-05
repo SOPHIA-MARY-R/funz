@@ -1,16 +1,16 @@
 import "./CarouselsStyle.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Card from "./PremiereCard";
-import { PremiereData, responsive } from "./PremiereData";
+import Card from "./PlaysCard";
+import { PlaysData, responsive } from "./PlaysData";
 
 export default function App() {
-  const card = PremiereData.map((item) => (
+  const card = PlaysData.map((item) => (
     <Card
       pic={item.pic}
       alt={item.alt}
+      play_name={item.play_name}
       url={item.url}
-      movie_name={item.movie_name}
       languages={item.languages}
     />
   ));
