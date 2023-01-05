@@ -59,14 +59,14 @@ export const PlaysData = [ //JSON Data
         languages: "Englishi",
         url: "/plays/edgar-and-anabel"
     },
-    // {
-    //     id: 6,
-    //     pic: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-Ny41LzEwICAxODMgdm90ZXM%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00344973-cvlygxjdfx-portrait.jpg",
-    //     alt: 'avatar',
-    //     play_name: "College Road",
-    //     languages: "Tamil",
-    //     url: "/plays/college-road"
-    // },
+    {
+        id: 6,
+        pic: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-RnJpLCAyNyBKYW4%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00335797-tstxvswzud-portrait.jpg",
+        alt: 'draupati',
+        play_name: "Draupathi",
+        languages: "Tamil",
+        url: "/plays/draupathi"
+    },
     // {
     //     id: 7,
     //     pic: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-NS4xLzEwICAyNS40SyB2b3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00145851-rwxeypugtu-portrait.jpg",
