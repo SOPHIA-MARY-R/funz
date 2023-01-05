@@ -1,21 +1,14 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import {MovieCardsData} from "../components/MovieCardsData"; 
-function Cards() {
-    {MovieCardsData.map((item, index) => {
-        return (
-        <Card style={{ width: '45%', height: '100%' }} key={index}>
-        <Card.Img src={item.pic} />
-        <Card.Body>
-            <Card.Title>{item.movie_name}</Card.Title>
-            <Card.Text>
-            <p>{item.certification}</p>
-            <p>{item.languages}</p>
-            </Card.Text>
-        </Card.Body>
-        </Card>
-    );
-    })}
-}
+import "./CarouselsStyle.css";
+import { Link } from "react-router-dom";
+import { MovieCardsData } from "./MovieCardsData";
 
-export default Cards;
+import React from "react";
+
+export default function Product(props) {
+  return (
+    <div className="card">
+      <img className="card-image" src={props.url} alt={props.alt} />
+      <h2>{props.movie_name}</h2>
+    </div>
+  );
+}

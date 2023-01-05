@@ -11,6 +11,7 @@ import { Plays } from "./tabs/Plays";
 import { Sports } from "./tabs/Sports";
 import { Activities } from "./tabs/Activities";
 import { Buzz } from "./tabs/Buzz";
+import 'react-multi-carousel/lib/styles.css';
 
 function App() {
   return (
