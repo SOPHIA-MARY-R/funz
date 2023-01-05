@@ -18,3 +18,24 @@
     margin:0;
     width: 100%;
 }
+input[type="checkbox"]{
+    display: none;
+}
+#language{
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    color:rgb(198, 43, 43);
+    border-radius: 20px;
+    font-size: small;
+    min-width: 55px;
+}
+.toggleContents{
+    display: inline;
+}
+input[type="checkbox"]:checked + #language{
+    background-color:rgb(198, 43, 43);
+    color: white;
+}
