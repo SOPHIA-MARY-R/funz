@@ -1,8 +1,20 @@
 .Topics{
     text-align: left;
-    margin: 10px 20px 5px 17px;
+    margin-left: 25px;
 }
 .ad{
-    margin: 20px;
-    width: 75%;
+    width: 95%;
+}
+.contents{
+    margin-left: 30px;
+    width: 93%;
+}
+.premiere{
+    width: 100%;
+}
+.premierebg{
+    background-color: #30353d;
+    padding: 10px;
+    margin:0;
+    width: 100%;
 }

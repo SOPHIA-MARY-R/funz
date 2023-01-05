@@ -1,27 +1,47 @@
 .card-image {
     object-fit: cover;
+    border-radius: 6px;
+    border: none;
+}
+.event-card-image {
+    object-fit: cover;
+    height: 205px;
+    width: 200px;
+    border-radius: 6px;
+}
+.event-card{
+    margin: 10px;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
     max-width: 320px;
     margin: auto 1rem;
     font-family: arial;
+    text-align: left;
+    text-decoration: none;
 }
 .textHolder{
     padding: 8px;
+    text-decoration: none;
+    border:none;
+    color: black;
 }
 .cert{
     text-transform: uppercase;
     font-size: small;
     margin: 0;
+    text-decoration: none;
+    
 }
 .lang{
     font-size: small;
     margin: 0;
+    text-decoration: none;
 }
 .Url{
     border-radius: 5px;
-    margin: 2px;
+    margin: 5px;
+    align-items: center;
 }
 #urlSpan{
     background-color:aliceblue;
