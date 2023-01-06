@@ -17,25 +17,24 @@
     max-width: 320px;
     margin: auto 1rem;
     text-align: left;
-    text-decoration: none;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .textHolder{
     padding: 8px;
     text-decoration: none;
-    border:none;
+    border: none;
     color: black;
 }
 .cert{
     text-transform: uppercase;
     font-size: small;
     margin: 0;
-    text-decoration: none;
-    
 }
 .lang{
     font-size: small;
     margin: 0;
-    text-decoration: none;
 }
 .Url{
     border-radius: 5px;

@@ -33,25 +33,62 @@ input[type="checkbox"]{
     min-width: 55px;
 }
 .toggleContents{
-    display: inline;
+    display: inline-block;
 }
 input[type="checkbox"]:checked + #language{
     background-color:rgb(198, 43, 43);
     color: white;
 }
+ul{
+    list-style-type: none;
+}
 .sidebar{
-    width: 300px;
+    margin: 50px 100px 20px 20px;
+    width: 333px;
     height: 500px;
-    margin: 20px;
-    background-color: aliceblue;
-    border: 1px solid grey;
-    display: flex;
-    color: black;
+    float: left;
+    /* border: 1px solid grey; */
+}
+.title{
+    display: inline;
+    height: 100%;
+    width: 100%;
+    line-height: 50px;
+    margin: 7px 7px 7px 1px;
+    /* background-color: aliceblue; */
+    padding: 8px;
 }
 .container{
-    flex-grow: 1;
-    background-color: lightpink;
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
+    margin-top: 50px;
+}
+.sidebar-menu{
+    display: block;
+    /* border: 1px solid grey; */
+    /* background-color: lightgrey; */
+}
+.sidebar-title{
+    cursor: pointer;
+    justify-content: space-between;
+}
+.sidebar-content{
+    height: 0;
+    overflow: hidden;
+    /* background-color: aliceblue; */
+    margin-top: 0;
+}
+.sidebar-menu.open .sidebar-content{
+    height: auto;
+    padding: 5px;
+}
+.sidebar-menu.open .arrow{
+    transform: rotate(180deg);
+    transition: transform .3s;
+    float: right;
+}
+.arrow{
+    float: right;
+    transition: transform .3s;
+    /* border: 1px solid black; */
+    margin-top: 13px;
+    margin-right: 20px;
 }

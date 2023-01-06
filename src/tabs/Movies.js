@@ -2,6 +2,7 @@ import Carousels from "../components/Carousels";
 import './tabs.css'
 import ToggleTag from "../components/ToggleTag";
 import { LangData } from "../components/LangData";
+import Sidebar from "../components/Sidebar";
 
 export const Movies =()=> {
     const toggle = LangData.map((item) => (
@@ -14,12 +15,9 @@ export const Movies =()=> {
     return (
         <>
         <Carousels/>
-        <div className="sidebar">
-            <div className="language">
-            </div>
-        </div>
-        <div className="Carousel Container">
-            {toggle}
+        <div className="contents">
+            <Sidebar/>
+            <div className="container">{toggle}</div>
         </div>
         </>
     );
