@@ -7,6 +7,7 @@ import { PlaysData, responsive } from "./PlaysData";
 export default function App() {
   const card = PlaysData.map((item) => (
     <Card
+      key={item.id}
       pic={item.pic}
       alt={item.alt}
       play_name={item.play_name}

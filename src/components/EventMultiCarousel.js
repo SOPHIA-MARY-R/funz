@@ -7,6 +7,7 @@ import { EventCardsData, responsive } from "./EventCardsData";
 export default function App() {
   const card = EventCardsData.map((item) => (
     <Card
+      key={item.id}
       pic={item.pic}
       alt={item.alt}
       url={item.url}

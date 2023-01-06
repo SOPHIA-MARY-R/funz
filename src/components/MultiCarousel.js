@@ -7,6 +7,7 @@ import { MovieCardsData, responsive } from "./MovieCardsData";
 export default function App() {
   const card = MovieCardsData.map((item) => (
     <Card
+      key={item.id}
       movie_name={item.movie_name}
       pic={item.pic}
       alt={item.alt}

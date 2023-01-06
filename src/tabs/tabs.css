@@ -39,3 +39,19 @@ input[type="checkbox"]:checked + #language{
     background-color:rgb(198, 43, 43);
     color: white;
 }
+.sidebar{
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    display: flex;
+    color: black;
+}
+.container{
+    flex-grow: 1;
+    background-color: lightpink;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}

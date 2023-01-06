@@ -1,30 +1,30 @@
-export const langData =[
+export const LangData =[
     {
         id: 1,
-        lang: "Tamil"
+        name: "Tamil"
     },
     {
         id: 2,
-        lang: "Telugu"
+        name: "Telugu"
     },
     {
         id: 3,
-        lang: "English"
+        name: "English"
     },
     {
         id: 4,
-        lang: "Hindi"
+        name: "Hindi"
     },
     {
         id: 5,
-        lang: "Bengali"
+        name: "Bengali"
     },
     {
         id: 6,
-        lang: "Marathi"
+        name: "Marathi"
     },
     {
         id: 7,
-        lang: "Malayalam"
+        name: "Malayalam"
     }
 ]

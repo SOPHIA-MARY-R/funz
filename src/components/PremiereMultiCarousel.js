@@ -7,6 +7,7 @@ import { PremiereData, responsive } from "./PremiereData";
 export default function App() {
   const card = PremiereData.map((item) => (
     <Card
+      key={item.id}
       pic={item.pic}
       alt={item.alt}
       url={item.url}

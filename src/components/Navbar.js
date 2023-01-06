@@ -34,7 +34,7 @@ class Navbar extends Component{
                     <div className="LContents">
                         {NavData.map((item, index) => {
                             return(
-                                <div className="Menus" key={index}>
+                                <div className="Menus" key={item.id}>
                                     <Link to={item.link} className={item.classname}>{item.head}</Link>
                                 </div>
                             );
