@@ -1,30 +1,37 @@
 export const LangData =[
     {
         id: 1,
-        name: "Tamil"
+        lang: "Tamil",
+        classname: "square-toggle"
     },
     {
         id: 2,
-        name: "Telugu"
+        lang: "Telugu",
+        classname: "square-toggle"
     },
     {
         id: 3,
-        name: "English"
+        lang: "English",
+        classname: "square-toggle"
     },
     {
         id: 4,
-        name: "Hindi"
+        lang: "Hindi",
+        classname: "square-toggle"
     },
     {
         id: 5,
-        name: "Bengali"
+        lang: "Bengali",
+        classname: "square-toggle"
     },
     {
         id: 6,
-        name: "Marathi"
+        lang: "Marathi",
+        classname: "square-toggle"
     },
     {
         id: 7,
-        name: "Malayalam"
+        lang: "Malayalam",
+        classname: "square-toggle"
     }
 ]

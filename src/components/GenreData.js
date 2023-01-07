@@ -1,58 +1,72 @@
 export const GenreData =[
     {
         id: 1,
-        name: "Drama"
+        genre: "Drama",
+        classname: "square-toggle"
     },
     {
         id: 2,
-        name: "Action"
+        genre: "Action",
+        classname: "square-toggle"
     },
     {
         id: 3,
-        name: "Thriller"
+        genre: "Thriller",
+        classname: "square-toggle"
     },
     {
         id: 4,
-        name: "Adventure"
+        genre: "Adventure",
+        classname: "square-toggle"
     },
     {
         id: 5,
-        name: "Horror"
+        genre: "Horror",
+        classname: "square-toggle"
     },
     {
         id: 6,
-        name: "Romantic"
+        genre: "Romantic",
+        classname: "square-toggle"
     },
     {
         id: 7,
-        name: "Comedy"
+        genre: "Comedy",
+        classname: "square-toggle"
     },
     {
         id: 8,
-        name: "Crime"
+        genre: "Crime",
+        classname: "square-toggle"
     },
     {
         id: 9,
-        name: "Mystery"
+        genre: "Mystery",
+        classname: "square-toggle"
     },
     {
         id: 10,
-        name: "Family"
+        genre: "Family",
+        classname: "square-toggle"
     },
     {
         id: 11,
-        name: "Psycological"
+        genre: "Psycological",
+        classname: "square-toggle"
     },
     {
         id: 12,
-        name: "Sci-Fi"
+        genre: "Sci-Fi",
+        classname: "square-toggle"
     },
     {
         id: 13,
-        name: "Sports"
+        genre: "Sports",
+        classname: "square-toggle"
     },
     {
         id: 14,
-        name: "Fantasy"
+        genre: "Fantasy",
+        classname: "square-toggle"
     }
 ]

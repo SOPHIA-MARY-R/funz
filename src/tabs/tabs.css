@@ -21,7 +21,7 @@
 input[type="checkbox"]{
     display: none;
 }
-#language{
+.round-toggle{
     display: inline-block;
     padding: 5px 20px;
     margin: 5px;
@@ -32,10 +32,25 @@ input[type="checkbox"]{
     font-size: small;
     min-width: 55px;
 }
+.square-toggle{
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    color:rgb(198, 43, 43);
+    border-radius: 2px;
+    font-size: small;
+    min-width: 55px;
+}
 .toggleContents{
     display: inline-block;
 }
-input[type="checkbox"]:checked + #language{
+input[type="checkbox"]:checked + .round-toggle{
+    background-color:rgb(198, 43, 43);
+    color: white;
+}
+input[type="checkbox"]:checked + .square-toggle{
     background-color:rgb(198, 43, 43);
     color: white;
 }
@@ -54,16 +69,17 @@ ul{
     height: 100%;
     width: 100%;
     line-height: 50px;
-    margin: 7px 7px 7px 1px;
+    margin: 7px 15px 7px 1px;
     /* background-color: aliceblue; */
     padding: 8px;
+    justify-content: space-between;
 }
 .container{
     margin-top: 50px;
 }
 .sidebar-menu{
     display: block;
-    /* border: 1px solid grey; */
+    border: 1px solid lightgrey;
     /* background-color: lightgrey; */
 }
 .sidebar-title{
@@ -83,12 +99,11 @@ ul{
 .sidebar-menu.open .arrow{
     transform: rotate(180deg);
     transition: transform .3s;
-    float: right;
+    float: left;
 }
 .arrow{
-    float: right;
+    float: left;
     transition: transform .3s;
     /* border: 1px solid black; */
     margin-top: 13px;
-    margin-right: 20px;
 }

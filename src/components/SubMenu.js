@@ -1,32 +1,79 @@
 import React from 'react';
-import { SidebarData } from './SidebarData';
 import ToggleTag from './ToggleTag';
 import { LangData } from './LangData';
 import { useState } from "react";
+import { GenreData } from './GenreData';
+import { FormatData } from './FormatData';
 
 export default function SubMenu(){
-    const [open, setOpen] = useState(false); //toggle open and close of cards
+    const [open1, setOpen1] = useState(false); //toggle open and close of cards
+    const [open2, setOpen2] = useState(false);
+    const [open3, setOpen3] = useState(false);
 
-    const toggle = LangData.map((item) => (
+    const toggle1 = LangData.map((item) => (
         <ToggleTag
         key={item.id}
-        name={item.name}
+        name={item.lang}
+        classname={item.classname}
+        />
+    ));
+    const toggle2 = GenreData.map((item) => (
+        <ToggleTag
+        key={item.id}
+        name={item.genre}
+        classname={item.classname}
+        />
+    ));
+    const toggle3 = FormatData.map((item) => (
+        <ToggleTag
+        key={item.id}
+        name={item.format}
+        classname={item.classname}
         />
     ));
     return (
-        <div className={open ? "sidebar-menu open" : "sidebar-menu"}>
-            <ul>
-                <li>
-                    <div className="sidebar-title">
-                        <span className="title">Languages</span>
-                        <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen(!open)}/></span>
-                    </div>
-                    <div className="sidebar-content">
-                        {toggle}
-                    </div>
-                </li>
-            </ul>
-        </div>
-            
+        <>
+            <div className={open1 ? "sidebar-menu open" : "sidebar-menu"}>
+                <ul>
+                    <li>
+                        <div className="sidebar-title">
+                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen1(!open1)}/></span>
+                            <span className="title">Languages</span>
+                        </div>
+                        <div className="sidebar-content">
+                            {toggle1}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <p/>
+            <div className={open2 ? "sidebar-menu open" : "sidebar-menu"}>
+                <ul>
+                    <li>
+                        <div className="sidebar-title">
+                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen2(!open2)}/></span>
+                            <span className="title">Genres</span>                       
+                        </div>
+                        <div className="sidebar-content">
+                            {toggle2}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <p/> {/* For spacing */}
+            <div className={open3 ? "sidebar-menu open" : "sidebar-menu"}>
+                <ul>
+                    <li>
+                        <div className="sidebar-title">
+                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen3(!open3)}/></span>
+                            <span className="title">Format</span>                       
+                        </div>
+                        <div className="sidebar-content">
+                            {toggle3}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </>
     );
 }

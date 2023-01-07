@@ -8,7 +8,8 @@ export const Movies =()=> {
     const toggle = LangData.map((item) => (
         <ToggleTag
         key={item.id}
-        name={item.name}
+        name={item.lang}
+        classname="round-toggle"
         />
     ));
 
