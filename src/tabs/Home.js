@@ -1,9 +1,9 @@
-import Carousels from "../components/Carousels";
-import MultiCarousel from "../components/MultiCarousel";
-import EventMultiCarousel from "../components/EventMultiCarousel";
+import Carousels from "../components/Cards_Carousels/Carousels";
+import MultiCarousel from "../components/Cards_Carousels/MultiCarousel";
+import EventMultiCarousel from "../components/Cards_Carousels/EventMultiCarousel";
 import './tabs.css'
-import PremiereMultiCarousel from "../components/PremiereMultiCarousel";
-import PlaysMultiCarousel from "../components/PlaysMultiCarousel";
+import PremiereMultiCarousel from "../components/Cards_Carousels/PremiereMultiCarousel";
+import PlaysMultiCarousel from "../components/Cards_Carousels/PlaysMultiCarousel";
 
 export const Home = () => {
   return (

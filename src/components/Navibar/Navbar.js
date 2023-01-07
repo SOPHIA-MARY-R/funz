@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./NavbarStyle.css";
-import { NavData } from "./Navdata.js";
+import { NavData } from "../JSON_Data/Navdata.js";
 import { Link } from "react-router-dom";
 class Navbar extends Component{
     render(){

@@ -1,9 +1,9 @@
 import React from 'react';
 import ToggleTag from './ToggleTag';
-import { LangData } from './LangData';
+import { LangData } from './JSON_Data/LangData';
 import { useState } from "react";
-import { GenreData } from './GenreData';
-import { FormatData } from './FormatData';
+import { GenreData } from './JSON_Data/GenreData';
+import { FormatData } from './JSON_Data/FormatData';
 
 export default function SubMenu(){
     const [open1, setOpen1] = useState(false); //toggle open and close of cards

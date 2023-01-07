@@ -1,7 +1,7 @@
-import Carousels from "../components/Carousels";
+import Carousels from "../components/Cards_Carousels/Carousels";
 import './tabs.css'
 import ToggleTag from "../components/ToggleTag";
-import { LangData } from "../components/LangData";
+import { LangData } from "../components/JSON_Data/LangData";
 import Sidebar from "../components/Sidebar";
 import Grid from "../components/Grid";
 
