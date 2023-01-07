@@ -83,7 +83,7 @@ h5 span{
     margin-top: 5px;
 }
 .Searchbar{
-    width: 45%;
+    width: auto;
     margin: 13px;
     border: 1px solid gray;
     border-radius: 5px;
@@ -97,6 +97,8 @@ h5 span{
     display: unordered-list-item;
     float: left;
     background-color: aliceblue;
+    width: 420px;
+    overflow: hidden;
 }
 #searchInput:focus{
     outline: none;
