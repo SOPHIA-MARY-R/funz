@@ -1,9 +1,9 @@
-import Carousels from "../components/Cards_Carousels/Carousels";
-import './tabs.css'
-import ToggleTag from "../components/ToggleTag";
-import { LangData } from "../components/JSON_Data/LangData";
-import Sidebar from "../components/Sidebar";
-import Grid from "../components/Grid";
+import Carousels from "../../components/Cards_Carousels/Carousels";
+import '../tabs.css'
+import ToggleTag from "../../components/Toggle_Tag/ToggleTag";
+import { LangData } from "../../components/JSON_Data/LangData";
+import Sidebar from "../../components/Sidebar/Sidebar";
+import Grid from "../../components/Grid/Grid";
 
 export const Movies =()=> {
     const toggle = LangData.map((item) => (

@@ -1,7 +1,7 @@
 import "./CarouselsStyle.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Card from "./Cards";
+import Card from "../Cards/Cards";
 import { MovieCardsData, responsive } from "../JSON_Data/MovieCardsData";
 
 export default function App() {

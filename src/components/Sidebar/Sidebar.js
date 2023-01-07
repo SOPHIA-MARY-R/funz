@@ -1,4 +1,4 @@
-import "../tabs/tabs.css";
+import "../../tabs/tabs.css";
 import React from "react";
 import SubMenu from "./SubMenu";
 

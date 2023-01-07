@@ -3,7 +3,7 @@
 import Navbar from './components/Navibar/Navbar'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //routing library for React
 import { Home } from "./tabs/Home";
-import { Movies } from "./tabs/Movies";
+import { Movies } from "./tabs/Movies/Movies";
 import { Stream } from "./tabs/Stream";
 import { Events } from "./tabs/Events";
 import { Plays } from "./tabs/Plays";
@@ -11,6 +11,7 @@ import { Sports } from "./tabs/Sports";
 import { Activities } from "./tabs/Activities";
 import { Buzz } from "./tabs/Buzz";
 import 'react-multi-carousel/lib/styles.css';
+import Avatar from './tabs/Movies/Pages/Avatar';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/sports" element={<Sports/>}/>
           <Route path="/activities" element={<Activities/>}/>
           <Route path="/buzz" element={<Buzz/>}/>
+          <Route path="/movies/avatar-the-way-of-water" element={<Avatar/>}/>
         </Routes>
       </Router>
     </div>

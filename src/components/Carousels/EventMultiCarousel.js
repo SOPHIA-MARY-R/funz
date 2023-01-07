@@ -1,18 +1,16 @@
 import "./CarouselsStyle.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Card from "./PlaysCard";
-import { PlaysData, responsive } from "../JSON_Data/PlaysData";
+import Card from "../Cards/EventCards";
+import { EventCardsData, responsive } from "../JSON_Data/EventCardsData";
 
 export default function App() {
-  const card = PlaysData.map((item) => (
+  const card = EventCardsData.map((item) => (
     <Card
       key={item.id}
       pic={item.pic}
       alt={item.alt}
-      play_name={item.play_name}
       url={item.url}
-      languages={item.languages}
     />
   ));
 

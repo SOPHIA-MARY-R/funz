@@ -1,4 +1,4 @@
-import "../tabs/tabs.css";
+import "../../tabs/tabs.css";
 
 function ToggleTag(props) {
     return (        
