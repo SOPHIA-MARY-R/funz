@@ -18,9 +18,10 @@ export const Movies =()=> {
         <>
         <Carousels/>
         <div className="contents">
+        <div><img className="premiere" src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120:q-80/coming-soon-web-collection-202012090733.png" alt="movies soon"/></div>
             <Sidebar/>
             <div className="container">
-                {toggle}
+                {toggle}                
                 <div><Grid/></div>
             </div>
         </div>

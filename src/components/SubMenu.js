@@ -36,7 +36,7 @@ export default function SubMenu(){
             <div className={open1 ? "sidebar-menu open" : "sidebar-menu"}>
                 <ul>
                     <li>
-                        <div className="sidebar-title">
+                        <div className={open1 ? "sidebar-title open" : "sidebar-title"}>
                             <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen1(!open1)}/></span>
                             <span className="title">Languages</span>
                         </div>
@@ -50,7 +50,7 @@ export default function SubMenu(){
             <div className={open2 ? "sidebar-menu open" : "sidebar-menu"}>
                 <ul>
                     <li>
-                        <div className="sidebar-title">
+                        <div className={open2 ? "sidebar-title open" : "sidebar-title"}>
                             <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen2(!open2)}/></span>
                             <span className="title">Genres</span>                       
                         </div>
@@ -64,7 +64,7 @@ export default function SubMenu(){
             <div className={open3 ? "sidebar-menu open" : "sidebar-menu"}>
                 <ul>
                     <li>
-                        <div className="sidebar-title">
+                        <div className={open3 ? "sidebar-title open" : "sidebar-title"}>
                             <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen3(!open3)}/></span>
                             <span className="title">Format</span>                       
                         </div>
