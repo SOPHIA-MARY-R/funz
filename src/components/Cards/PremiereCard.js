@@ -7,12 +7,12 @@ const CardStyle = {
 }
 export default function PremiereCard(props) {
   return (
-    <div className="card" style={CardStyle.Container}>
-      <Link to={props.url}><img className="premiere-card-image" src={props.pic} alt={props.alt} /></Link>
+    <Link to={props.url}><div className="card" style={CardStyle.Container}>
+      <img className="premiere-card-image" src={props.pic} alt={props.alt} />
       <div className="textHolder">
           <h6><b>{props.movie_name}</b></h6>
           <p className="lang">{props.languages}</p>
       </div>
-    </div>
+    </div></Link>
   );
 }

@@ -8,16 +8,14 @@ const CardStyle = {
 }
 export default function Card(props) {
   return (
-    <div className="card" style={CardStyle.Container}>
-      <Link to={props.url}>
+    <Link to={props.url}><div className="card" style={CardStyle.Container}>
         <img className="card-image" src={props.pic} alt={props.alt} />
-      </Link>
-      <div className="textHolder" style={CardStyle.Text}>
+        <div className="textHolder" style={CardStyle.Text}>
           <h6 style={CardStyle}><b>{props.movie_name}</b></h6>
           <p className="cert">{props.certification}</p>
           <p className="lang">{props.languages}</p>
+        </div>
       </div>
-    </div>
-  
+    </Link>
   );
 }
