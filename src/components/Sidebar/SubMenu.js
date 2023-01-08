@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ToggleTag from '../Toggle_Tag/ToggleTag';
 import { LangData } from '../JSON_Data/LangData';
-import { useState } from "react";
 import { GenreData } from '../JSON_Data/GenreData';
 import { FormatData } from '../JSON_Data/FormatData';
 
