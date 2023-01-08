@@ -1,3 +1,4 @@
+//JSON Data for movie formats
 export const FormatData = [
     {
         id: 1,

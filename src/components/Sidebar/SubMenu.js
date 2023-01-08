@@ -4,34 +4,38 @@ import { LangData } from '../JSON_Data/LangData';
 import { GenreData } from '../JSON_Data/GenreData';
 import { FormatData } from '../JSON_Data/FormatData';
 
+//SubMenus for the side bar
 export default function SubMenu(){
-    const [open1, setOpen1] = useState(false); //toggle open and close of cards
-    const [open2, setOpen2] = useState(false);
-    const [open3, setOpen3] = useState(false);
+    //useSate ==> to re-render particular component & to track and update changes of state
+    //toggle open and close of submenu
+    const [open1, setOpen1] = useState(false); //useSate to track language filter
+    const [open2, setOpen2] = useState(false); //useState to track genre filter
+    const [open3, setOpen3] = useState(false); //useState to track format filter
 
-    const toggle1 = LangData.map((item) => (
+    const toggle1 = LangData.map((language) => (
         <ToggleTag
-        key={item.id}
-        name={item.lang}
-        classname={item.classname}
+        key={language.id}
+        name={language.lang}
+        classname={language.classname}
         />
     ));
-    const toggle2 = GenreData.map((item) => (
+    const toggle2 = GenreData.map((genre) => (
         <ToggleTag
-        key={item.id}
-        name={item.genre}
-        classname={item.classname}
+        key={genre.id}
+        name={genre.genre}
+        classname={genre.classname}
         />
     ));
-    const toggle3 = FormatData.map((item) => (
+    const toggle3 = FormatData.map((format) => (
         <ToggleTag
-        key={item.id}
-        name={item.format}
-        classname={item.classname}
+        key={format.id}
+        name={format.format}
+        classname={format.classname}
         />
     ));
     return (
         <>
+            {/* classname chanegs based on useSate value */}
             <div className={open1 ? "sidebar-menu open" : "sidebar-menu"}>
                 <ul>
                     <li>
@@ -45,7 +49,7 @@ export default function SubMenu(){
                     </li>
                 </ul>
             </div>
-            <p/>
+            <p/> {/* For spacing */}
             <div className={open2 ? "sidebar-menu open" : "sidebar-menu"}>
                 <ul>
                     <li>
@@ -73,6 +77,6 @@ export default function SubMenu(){
                     </li>
                 </ul>
             </div>
-    </>
+        </>
     );
 }

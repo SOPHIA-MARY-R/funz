@@ -1,3 +1,4 @@
+// JSON Data for premieres
 export const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -18,7 +19,7 @@ export const responsive = {
       items: 1,
     },
   };
-export const PremiereData = [ //JSON Data
+export const PremiereData = [ 
     {
         id: 1,
         pic: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00117411-zmudrhhzzz-portrait.jpg",

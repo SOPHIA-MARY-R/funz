@@ -1,19 +1,19 @@
-import "./CarouselsStyle.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from "../Cards/Cards";
 import { MovieCardsData, responsive } from "../JSON_Data/MovieCardsData";
 
-export default function App() {
-  const card = MovieCardsData.map((item) => (
+//Movies MultiCarousel
+export default function MultiCarousel() {
+  const card = MovieCardsData.map((movie) => (
     <Card
-      key={item.id}
-      movie_name={item.movie_name}
-      pic={item.pic}
-      alt={item.alt}
-      certification={item.certification}
-      languages={item.languages}
-      url={item.url}
+      key={movie.id}
+      movie_name={movie.movie_name}
+      pic={movie.pic}
+      alt={movie.alt}
+      certification={movie.certification}
+      languages={movie.languages}
+      url={movie.url}
     />
   ));
 

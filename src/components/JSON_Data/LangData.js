@@ -1,3 +1,4 @@
+//JSON Data for movie languages
 export const LangData =[
     {
         id: 1,

@@ -1,10 +1,12 @@
-import "../Carousels/CarouselsStyle.css";
+import "../Cards/CardStyle.css";
 import { Link } from "react-router-dom";
-
 import React from "react";
+
+//Cards for plays
 const CardStyle = {
   Container: {border: 'none'}
 }
+
 export default function PlaysCard(props) {
   return (
     <Link to={props.url}><div className="card" style={CardStyle.Container}>

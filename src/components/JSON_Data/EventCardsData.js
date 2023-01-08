@@ -1,3 +1,4 @@
+//JSON Data for events
 export const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -17,7 +18,7 @@ export const responsive = {
       breakpoint: { max: 464, min: 0 },
       items: 1,
     },
-  };
+};
 export const EventCardsData = [
     {
         id: 1,

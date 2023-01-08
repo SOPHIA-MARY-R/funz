@@ -2,8 +2,8 @@
 //export const strictly sticks with the component name, u should only use the exact name within braces
 import Navbar from './components/Navibar/Navbar'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //routing library for React
-import { Home } from "./tabs/Home";
-import { Movies } from "./tabs/Movies/Movies";
+import Home from "./tabs/Home";
+import Movies from "./tabs/Movies/Movies";
 import { Stream } from "./tabs/Stream";
 import { Events } from "./tabs/Events";
 import { Plays } from "./tabs/Plays";

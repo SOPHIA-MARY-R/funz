@@ -1,3 +1,8 @@
+# Funz
+Funz is a clone of [bookmyshow](https://in.bookmyshow.com/explore/home/chennai).
+This has been implemented using HTML5, CSS3 and React JS
+Development in progress ...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

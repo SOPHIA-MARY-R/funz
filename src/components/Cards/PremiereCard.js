@@ -1,10 +1,12 @@
-import "../Carousels/CarouselsStyle.css";
+import "../Cards/CardStyle.css";
 import { Link } from "react-router-dom";
 import React from "react";
 
+//Cards for Premiere
 const CardStyle = {
   Container: {border: 'none'}
 }
+
 export default function PremiereCard(props) {
   return (
     <Link to={props.url}><div className="card" style={CardStyle.Container}>

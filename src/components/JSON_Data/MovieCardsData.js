@@ -1,3 +1,4 @@
+//JSON Data for movies
 export const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.

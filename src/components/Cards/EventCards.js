@@ -1,12 +1,12 @@
-import "../Carousels/CarouselsStyle.css";
+import "../Cards/CardStyle.css";
 import { Link } from "react-router-dom";
-
 import React from "react";
 
+//Cards for events
 const CardStyle = {
-  Container: {border: 'none'},
-  Text: {textDecoration: 'none'}
+  Container: {border: 'none'}
 }
+
 export default function EventCard(props) {
   return (
     <Link to={props.url}><div className="event-card" style={CardStyle}>

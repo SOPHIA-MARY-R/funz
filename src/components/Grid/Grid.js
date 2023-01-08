@@ -2,18 +2,19 @@ import React from "react";
 import "../../tabs/tabs.css";
 import Card from "../Cards/Cards";
 import { MovieCardsData } from "../JSON_Data/MovieCardsData";
-import "../Carousels/CarouselsStyle.css";
+import "../Cards/CardStyle.css";
 
+//Movies Grid
 export default function Grid(){
-    const card = MovieCardsData.map((item) => (
+    const card = MovieCardsData.map((movie) => (
         <Card
-          key={item.id}
-          movie_name={item.movie_name}
-          pic={item.pic}
-          alt={item.alt}
-          certification={item.certification}
-          languages={item.languages}
-          url={item.url}
+          key={movie.id}
+          movie_name={movie.movie_name}
+          pic={movie.pic}
+          alt={movie.alt}
+          certification={movie.certification}
+          languages={movie.languages}
+          url={movie.url}
         />
       ));
     return(

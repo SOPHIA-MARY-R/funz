@@ -1,3 +1,4 @@
+//JSON Data for Lower Container of Navigation bar
 export const NavData = [
     {
         id: 1,

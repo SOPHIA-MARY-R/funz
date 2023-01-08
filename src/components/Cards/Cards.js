@@ -1,11 +1,13 @@
-import "../Carousels/CarouselsStyle.css";
+import "../Cards/CardStyle.css";
 import { Link } from "react-router-dom";
-
 import React from "react";
 
+// Cards for movies
 const CardStyle = {
   Container: {border: 'none'}
 }
+
+//the funtion is called by MultiCarousel
 export default function Card(props) {
   return (
     <Link to={props.url}><div className="card" style={CardStyle.Container}>

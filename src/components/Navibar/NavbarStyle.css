@@ -1,25 +1,20 @@
+/* STYLE FOR NAVIGATION BAR */
+
 /*
 .NavContainer{
     border: 1px solid black;
 }
 */
+
+/* UPPER CONTAINER */
 .UpperContainer{
     /*border: 1px solid brown;*/
     background-color:rgb(31, 40, 40);
-}
-.LowerContainer{
-    /*border: 1px solid brown;*/
-    background-color:rgb(18, 20, 20);
 }
 .UContents{
     margin: 0px 50px 0px 50px;
     display:flow-root;
     /*border: 1px solid blue;*/
-}
-.LContents{
-    margin: 0px 50px 0px 50px;
-    /*border: 1px solid blue;*/
-    display:flow-root;
 }
 .Logo{
     /*border: 1px solid black;*/
@@ -28,17 +23,60 @@
     float: left;
     margin-top: 25px;
 }
+.Home{
+    text-decoration: none;
+    color: white;
+}
+.Home:hover{
+    color: white;
+}
 h5 span{
     background-color:rgb(198, 43, 43);
     padding: 3px;
     border-radius: 5px;
     color: white;
 }
+.Searchbar{
+    width: auto;
+    margin: 13px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display:unordered-list-item;
+    float:left;
+    background-color: aliceblue;
+}
+.SearchIcon{
+    color: black;
+    padding: 6px 6px 6px 15px;
+    /*border: 1px solid black;*/
+    display: unordered-list-item;
+    float: left;
+    margin-top: 5px;
+}
+#searchInput{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: unordered-list-item;
+    float: left;
+    background-color: aliceblue;
+    width: 420px;
+    overflow: hidden;
+}
+#searchInput:focus{
+    outline: none;
+}
 .City{
     /*border: 1px solid black;*/
     display:unordered-list-item;
     float: right;
     margin-top: 25px;
+}
+#citySpan{
+    /*background-color:gray;*/
+    color: white;
+    border-radius: 2px;
+    padding: 8px 20px 8px 20px;
 }
 .Auth{
     /*border: 1px solid black;*/
@@ -48,18 +86,12 @@ h5 span{
     margin-left: 5px;
     margin-top: 25px;
 }
+#AuthLink{text-decoration: none;}
 #authSpan{
     background-color:rgb(198, 43, 43);
     color: white;
     border-radius: 5px;
     padding: 5px 8px 5px 8px;
-}
-#AuthLink{text-decoration: none;}
-#citySpan{
-    /*background-color:gray;*/
-    color: white;
-    border-radius: 2px;
-    padding: 8px 20px 8px 20px;
 }
 .Menu{
     /*border: 1px solid black;*/
@@ -74,41 +106,16 @@ h5 span{
     padding: 0px 20px 0px 20px;
     font-size: large;
 }
-.SearchIcon{
-    color: black;
-    padding: 6px 6px 6px 15px;
-    /*border: 1px solid black;*/
-    display: unordered-list-item;
-    float: left;
-    margin-top: 5px;
+
+/* LOWER CONTAINER */
+.LowerContainer{
+    /*border: 1px solid brown;*/
+    background-color:rgb(18, 20, 20);
 }
-.Searchbar{
-    width: auto;
-    margin: 13px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    display:unordered-list-item;
-    float:left;
-    background-color: aliceblue;
-}
-#searchInput{
-    padding: 10px;
-    border: none;
-    display: unordered-list-item;
-    float: left;
-    background-color: aliceblue;
-    width: 420px;
-    overflow: hidden;
-}
-#searchInput:focus{
-    outline: none;
-}
-.Home{
-    text-decoration: none;
-    color: white;
-}
-.Home:hover{
-    color: white;
+.LContents{
+    margin: 0px 50px 0px 50px;
+    /*border: 1px solid blue;*/
+    display:flow-root;
 }
 .Movies, .Stream, .Events, .Plays, .Sports, .Activities, .Buzz{
     display: unordered-list-item;

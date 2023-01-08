@@ -1,6 +1,7 @@
-import "../../tabs/tabs.css";
+import "../Cards/CardStyle.css";
 import React from "react";
 
+//cast and crew cards
 export default function CastCard(props) {
   return (
     <div className="cast-card">

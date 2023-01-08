@@ -1,3 +1,4 @@
+//JSON Data for Avatar Movie Cast
 export const CastData = [
     {
         id: 1,

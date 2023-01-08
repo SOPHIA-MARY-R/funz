@@ -1,0 +1,61 @@
+/* STYLE FOR MOVIES CARD, PLAYS CARD, PREMIERE CARD */
+.card {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+    max-width: 320px;
+    margin: auto 1rem;
+    text-align: left;
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-image {
+    object-fit: cover;
+    border-radius: 6px;
+    border: none;
+}
+.textHolder{
+    padding: 8px;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+.cert{
+    text-transform: uppercase;
+    font-size: small;
+    margin: 0;
+}
+.lang{
+    font-size: small;
+    margin: 0;
+}
+
+/* STYLE FOR EVENT CARD */
+.event-card{
+    margin: 10px;
+}
+.event-card-image {
+    object-fit: cover;
+    height: 205px;
+    width: 200px;
+    border-radius: 6px;
+}
+
+/* STYLE FOR  CAST CARD */
+.cast-card{
+    margin: 0px 15px 0px 15px;
+}
+.cast-card-image {
+    border-radius: 200px;
+    height: 125px;
+    width: 125px;
+    align-content: center;
+    /* border: 1px solid black; */
+}
+.cast-textHolder{
+    max-width: 130px;
+    text-align: center;
+}
+.role{
+    color: grey;
+    font-size: 15px;
+}

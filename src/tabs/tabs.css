@@ -1,13 +1,14 @@
-.Topics{
-    text-align: left;
-    margin-left: 25px;
-}
-.ad{
-    width: 95%;
-}
+/* STYLE FOR HOME PAGE COMPONENTS */
 .contents{
     margin-left: 30px;
     width: 93%;
+}
+.topics{
+    text-align: left;
+    margin-left: 15px;
+}
+.ad{
+    width: 95%;
 }
 .premiere{
     width: 100%;
@@ -17,6 +18,11 @@
     padding: 10px;
     margin:0;
     width: 100%;
+}
+
+/* STYLE FOR TOGGLE TAG COMPONENT */
+.toggleContents{
+    display: inline-block;
 }
 input[type="checkbox"]{
     display: none;
@@ -43,9 +49,6 @@ input[type="checkbox"]{
     font-size: small;
     min-width: 55px;
 }
-.toggleContents{
-    display: inline-block;
-}
 input[type="checkbox"]:checked + .round-toggle{
     background-color:rgb(198, 43, 43);
     color: white;
@@ -54,15 +57,42 @@ input[type="checkbox"]:checked + .square-toggle{
     background-color:rgb(198, 43, 43);
     color: white;
 }
-ul{
-    list-style-type: none;
-}
+
+/* STYLE FOR SIDEBAR COMPONENT */
 .sidebar{
     margin: 50px 100px 20px 20px;
     width: 333px;
     height: 500px;
     float: left;
     /* border: 1px solid grey; */
+}
+
+/* STYLE FOR SUBMENU COMPONENT */
+.sidebar-menu{
+    display: block;
+    border: 1px solid lightgrey;
+    /* background-color: lightgrey; */
+}
+ul{
+    list-style-type: none;
+}
+.sidebar-title{
+    cursor: pointer;
+    justify-content: space-between;
+}
+.sidebar-title.open{
+    color: rgb(198, 43, 43);
+}
+.arrow{
+    float: left;
+    transition: transform .3s;
+    /* border: 1px solid black; */
+    margin-top: 13px;
+}
+.sidebar-menu.open .arrow{
+    transform: rotate(180deg);
+    transition: transform .3s;
+    float: left;
 }
 .title{
     display: inline;
@@ -74,21 +104,6 @@ ul{
     padding: 8px;
     justify-content: space-between;
 }
-.container{
-    margin-top: 50px;
-}
-.sidebar-menu{
-    display: block;
-    border: 1px solid lightgrey;
-    /* background-color: lightgrey; */
-}
-.sidebar-title{
-    cursor: pointer;
-    justify-content: space-between;
-}
-.sidebar-title.open{
-    color: rgb(198, 43, 43);
-}
 .sidebar-content{
     height: 0;
     overflow: hidden;
@@ -99,16 +114,10 @@ ul{
     height: auto;
     padding: 5px;
 }
-.sidebar-menu.open .arrow{
-    transform: rotate(180deg);
-    transition: transform .3s;
-    float: left;
-}
-.arrow{
-    float: left;
-    transition: transform .3s;
-    /* border: 1px solid black; */
-    margin-top: 13px;
+
+/* STYLE FOR GRID COMPONENT */
+.container{
+    margin-top: 50px;
 }
 .grid-container{
     display: grid;
@@ -120,10 +129,8 @@ ul{
     /* grid-auto-flow: row; */
     margin: 10px;
 }
-.grid-item{
-    border: 1px solid black;
-    text-align: center;
-}
+
+/* STYLE FOR AVATAR PAGE COMPONENTS */
 .top-display{
     background-color: #2b3149;
     margin: 0;
@@ -176,30 +183,12 @@ ul{
 .hori-line{
     margin: 50px;
 }
-.cast{
-    display: flex;
-    flex-direction: row;
-    margin: 5px 50px 5px 50px;
-}
 #cast-head{
     margin-left: 50px;
     margin-bottom: 10px;
 }
-.cast-card{
-    margin: 0px 15px 0px 15px;
-}
-.cast-card-image {
-    border-radius: 200px;
-    height: 125px;
-    width: 125px;
-    align-content: center;
-    /* border: 1px solid black; */
-}
-.cast-textHolder{
-    max-width: 130px;
-    text-align: center;
-}
-.role{
-    color: grey;
-    font-size: 15px;
+.cast{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 50px 5px 50px;
 }

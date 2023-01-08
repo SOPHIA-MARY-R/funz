@@ -1,3 +1,4 @@
+//JSON Data for movie Genres
 export const GenreData =[
     {
         id: 1,
