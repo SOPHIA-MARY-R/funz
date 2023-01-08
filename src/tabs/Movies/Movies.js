@@ -1,4 +1,4 @@
-import Carousels from "../../components/Cards_Carousels/Carousels";
+import Carousels from "../../components/Carousels/Carousels";
 import '../tabs.css'
 import ToggleTag from "../../components/Toggle_Tag/ToggleTag";
 import { LangData } from "../../components/JSON_Data/LangData";
