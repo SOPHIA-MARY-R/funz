@@ -174,7 +174,7 @@ ul{
     margin: 50px 50px 10px 50px;
 }
 .hori-line{
-    width: 100%;
+    margin: 50px;
 }
 .cast{
     display: flex;
@@ -186,7 +186,7 @@ ul{
     margin-bottom: 10px;
 }
 .cast-card{
-    margin: 0px 15px 15px 15px;
+    margin: 0px 15px 0px 15px;
 }
 .cast-card-image {
     border-radius: 200px;
@@ -195,7 +195,7 @@ ul{
     align-content: center;
     /* border: 1px solid black; */
 }
-.textHolder{
+.cast-textHolder{
     max-width: 130px;
     text-align: center;
 }

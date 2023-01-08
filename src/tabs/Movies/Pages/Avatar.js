@@ -2,12 +2,22 @@ import "../../tabs.css";
 import { Link } from "react-router-dom";
 import Card from "../../../components/Cards/CastCard";
 import {CastData} from "../../../components/JSON_Data/CastData";
+import { CrewData } from "../../../components/JSON_Data/CrewData";
 
 export default function Avatar(){
-    const card = CastData.map((item) => (
+    const card1 = CastData.map((item) => (
         <Card
           key={item.id}
           cast_name={item.cast_name}
+          pic={item.pic}
+          alt={item.alt}
+          role={item.role}
+        />
+      ));
+      const card2 = CrewData.map((item) => (
+        <Card
+          key={item.id}
+          cast_name={item.crew_name}
           pic={item.pic}
           alt={item.alt}
           role={item.role}
@@ -41,11 +51,16 @@ export default function Avatar(){
             <div className="movie-desc">
                 <h3>About the movie</h3>
                 <p>Set more than a decade after the events of the first film, "Avatar The Way of Water" begins to tell the story of the Sully family (Jake, Neytiri and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive and the tragedies they endure.</p>
-                <hr className="hori-line"/>
             </div>
+            <hr className="hori-line"/>
             <h3 id="cast-head">Cast</h3>
             <div className="cast">
-                {card}
+                {card1}
+            </div>
+            <hr className="hori-line"/>
+            <h3 id="cast-head">Crew</h3>
+            <div className="cast">
+                {card2}
             </div>
         </div>
     );

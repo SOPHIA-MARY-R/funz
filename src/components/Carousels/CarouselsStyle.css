@@ -1,7 +1,18 @@
+.card {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+    max-width: 320px;
+    margin: auto 1rem;
+    text-align: left;
+}
+/* .card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+} */
 .card-image {
     object-fit: cover;
     border-radius: 6px;
     border: none;
+    height:320px;
+    width: 203px;
 }
 .event-card-image {
     object-fit: cover;
@@ -9,18 +20,17 @@
     width: 200px;
     border-radius: 6px;
 }
+.premiere-card-image{
+    object-fit: cover;
+    border-radius: 6px;
+    border: none;
+    height:320px;
+    width: 217px;
+}
 .event-card{
     margin: 10px;
 }
-.card {
-    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
-    max-width: 320px;
-    margin: auto 1rem;
-    text-align: left;
-}
-.card:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+
 .textHolder{
     padding: 8px;
     text-decoration: none;
