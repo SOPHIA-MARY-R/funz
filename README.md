@@ -1,6 +1,10 @@
 # Funz
 Funz is a clone of [bookmyshow](https://in.bookmyshow.com/explore/home/chennai).
 This has been implemented using HTML5, CSS3 and React JS
+
+SonarCloud Link: [Sonarcloud](https://sonarcloud.io/summary/new_code?id=SOPHIA-MARY-R_funz)
+Deployment Link: [Netlify](https://funz.netlify.app/)
+
 Development in progress ...
 
 # Getting Started with Create React App
