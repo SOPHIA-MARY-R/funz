@@ -1,38 +1,38 @@
-//JSON Data for event filters
-export const EveData =[
+//JSON Data for Event filters
+export const EventCategoryData =[
     {
         id: 1,
-        eve: "Workshops",
+        category: "Workshops",
         classname: "square-toggle"
     },
     {
         id: 2,
-        eve: "Online Streaming Events",
+        category: "Online Streaming categorynts",
         classname: "square-toggle"
     },
     {
         id: 3,
-        eve: "Music Shows",
+        category: "Music Shows",
         classname: "square-toggle"
     },
     {
         id: 4,
-        eve: "Comedy Shows",
+        category: "Comedy Shows",
         classname: "square-toggle"
     },
     {
         id: 5,
-        eve: "Performances",
+        category: "Performances",
         classname: "square-toggle"
     },
     {
         id: 6,
-        eve: "Kids",
+        category: "Kids",
         classname: "square-toggle"
     },
     {
         id: 7,
-        eve: "Spirituality",
+        category: "Spirituality",
         classname: "square-toggle"
     }
 ]

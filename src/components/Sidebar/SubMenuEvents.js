@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import ToggleTag from '../Toggle_Tag/ToggleTag';
 import { LangData } from '../JSON_Data/LangData';
 import { PriceData } from '../JSON_Data/PriceData';
-import { EveData } from '../JSON_Data/EveData';
+import { EventCategoryData } from '../JSON_Data/EventCategoryData';
 
 //SubMenus for the side bar
 export default function SubMenu(){
@@ -26,10 +26,10 @@ export default function SubMenu(){
         classname={price.classname}
         />
     ));
-    const toggle3 = EveData.map((category) => (
+    const toggle3 = EventCategoryData.map((category) => (
         <ToggleTag
         key={category.id}
-        name={category.eve}
+        name={category.category}
         classname={category.classname}
         />
     ));
