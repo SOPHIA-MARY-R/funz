@@ -10,7 +10,7 @@ export default function SubMenu(){
     //toggle open and close of submenu
     const [open4, setopen4] = useState(false); //useSate to track language filter
     const [open5, setopen5] = useState(false); //useState to track Price filter
-    const [open6, setopen6] = useState(false); //useState to track format filter
+    const [open6, setopen6] = useState(false); //useState to track category filter
 
     const toggle4 = LangData.map((language) => (
         <ToggleTag
@@ -28,9 +28,9 @@ export default function SubMenu(){
     ));
     const toggle6 = EventCategoryData.map((category) => (
         <ToggleTag
-        key={category.id}
-        name={category.category}
-        classname={category.classname}
+            key={category.id}
+            name={category.category}
+            classname={category.classname}
         />
     ));
     return (
