@@ -8,25 +8,25 @@ import { EventCategoryData } from '../JSON_Data/EventCategoryData';
 export default function SubMenu(){
     //useSate ==> to re-render particular component & to track and update changes of state
     //toggle open and close of submenu
-    const [open1, setOpen1] = useState(false); //useSate to track language filter
-    const [open2, setOpen2] = useState(false); //useState to track Price filter
-    const [open3, setOpen3] = useState(false); //useState to track format filter
+    const [open4, setopen4] = useState(false); //useSate to track language filter
+    const [open5, setopen5] = useState(false); //useState to track Price filter
+    const [open6, setopen6] = useState(false); //useState to track format filter
 
-    const toggle1 = LangData.map((language) => (
+    const toggle4 = LangData.map((language) => (
         <ToggleTag
         key={language.id}
         name={language.lang}
         classname={language.classname}
         />
     ));
-    const toggle2 = PriceData.map((price) => (
+    const toggle5 = PriceData.map((price) => (
         <ToggleTag
         key={price.id}
         name={price.price}
         classname={price.classname}
         />
     ));
-    const toggle3 = EventCategoryData.map((category) => (
+    const toggle6 = EventCategoryData.map((category) => (
         <ToggleTag
         key={category.id}
         name={category.category}
@@ -36,43 +36,43 @@ export default function SubMenu(){
     return (
         <>
             {/* classname chanegs based on useSate value */}
-            <div className={open1 ? "sidebar-menu open" : "sidebar-menu"}>
+            <div className={open4 ? "sidebar-menu open" : "sidebar-menu"}>
                 <ul>
                     <li>
-                        <div className={open1 ? "sidebar-title open" : "sidebar-title"}>
-                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen1(!open1)}/></span>
+                        <div className={open4 ? "sidebar-title open" : "sidebar-title"}>
+                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setopen4(!open4)}/></span>
                             <span className="title">Languages</span>
                         </div>
                         <div className="sidebar-content">
-                            {toggle1}
+                            {toggle4}
                         </div>
                     </li>
                 </ul>
             </div>
             <p/> {/* For spacing */}
-            <div className={open2 ? "sidebar-menu open" : "sidebar-menu"}>
+            <div className={open5 ? "sidebar-menu open" : "sidebar-menu"}>
                 <ul>
                     <li>
-                        <div className={open2 ? "sidebar-title open" : "sidebar-title"}>
-                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen2(!open2)}/></span>
+                        <div className={open5 ? "sidebar-title open" : "sidebar-title"}>
+                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setopen5(!open5)}/></span>
                             <span className="title">Prices</span>                       
                         </div>
                         <div className="sidebar-content">
-                            {toggle2}
+                            {toggle5}
                         </div>
                     </li>
                 </ul>
             </div>
             <p/> {/* For spacing */}
-            <div className={open3 ? "sidebar-menu open" : "sidebar-menu"}>
+            <div className={open6 ? "sidebar-menu open" : "sidebar-menu"}>
                 <ul>
                     <li>
-                        <div className={open3 ? "sidebar-title open" : "sidebar-title"}>
-                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setOpen3(!open3)}/></span>
+                        <div className={open6 ? "sidebar-title open" : "sidebar-title"}>
+                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setopen6(!open6)}/></span>
                             <span className="title">Category</span>                       
                         </div>
                         <div className="sidebar-content">
-                            {toggle3}
+                            {toggle6}
                         </div>
                     </li>
                 </ul>
