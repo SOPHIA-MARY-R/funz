@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //rou
 import Home from "./tabs/Home";
 import Movies from "./tabs/Movies/Movies";
 import { Stream } from "./tabs/Stream";
-import { Events } from "./tabs/Events";
-import { Plays } from "./tabs/Plays";
+import Events from "./tabs/Events";
+import Plays from "./tabs/Plays";
 import { Sports } from "./tabs/Sports";
 import { Activities } from "./tabs/Activities";
 import { Buzz } from "./tabs/Buzz";
