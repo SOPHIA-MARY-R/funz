@@ -13,6 +13,7 @@ export default function SubMenu(){
     const [open8, setopen8] = useState(false); //useState to track Price filter
     const [open9, setopen9] = useState(false); //useState to track category filter
     const [open10, setopen10] = useState(false); //useState to track date filter
+    const [open12, setopen12] = useState(false); //useState to track genre filter
 
     const toggle7 = LangData.map((language) => (
         <ToggleTag
@@ -96,6 +97,20 @@ export default function SubMenu(){
                         </div>
                         <div className="sidebar-content">
                             {toggle10}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <p/> {/* For spacing */}
+            <div className={open12 ? "sidebar-menu open" : "sidebar-menu"}>
+                <ul>
+                    <li>
+                        <div className={open12 ? "sidebar-title open" : "sidebar-title"}>
+                            <span class="arrow"><i class="fa-solid fa-chevron-down" onClick={()=>setopen12(!open12)}/></span>
+                            <span className="title">Genre</span>                       
+                        </div>
+                        <div className="sidebar-content">
+                            <ToggleTag key='1' name="Drama" classname="square-toggle"/>
                         </div>
                     </li>
                 </ul>
