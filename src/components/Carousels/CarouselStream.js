@@ -8,7 +8,7 @@ export default function CarouselStream() {
   return (
     <>
       <Carousel variant="black" className="carousel-container" style={{marginLeft: 0, marginRight: 0}}>
-        <Carousel.Item interval={1000}>
+        <Carousel.Item interval={500}>
           <div className="top-info-display" style={{display: 'flow-root'}}>
               <div className="movie-info-thumbnail"><img  style={{borderRadius: 20, height: 320, width: 220}} src="https://assets-in.bmscdn.com/discovery-catalog/events/et00337077-ashbldsplf-portrait.jpg" alt="everything-everywhere"/></div>
               <div className="movie-info-container">
@@ -21,7 +21,7 @@ export default function CarouselStream() {
               </div>
           </div>
         </Carousel.Item>
-        <Carousel.Item interval={500}>
+        <Carousel.Item interval={250}>
           <div className="top-info-display" style={{display: 'flow-root'}}>
               <div className="movie-info-thumbnail"><img  style={{borderRadius: 20, height: 320, width: 220}} src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:q-80/et00117411-zmudrhhzzz-portrait.jpg" alt="balck-adam"/></div>
               <div className="movie-info-container">
@@ -30,7 +30,7 @@ export default function CarouselStream() {
                   <div className="movie-details">
                       <span className="duration">2h 5m</span> • <span className="genre">Action, Adventure, Sci-Fi</span> • <span className="movie-certificate">UA</span> • <span className="release-date"> 16 Dec, 2022</span>
                   </div>
-                  <p className="movie-about">A slave-turned-god, Teth-Adam (Dwayne Johnson) breaks free of his prison and fights to save his homeland from an ancient evil.</p>       
+                  <p className="movie-about">A slave-turned-god, Teth-Adam (Dwayne Johnson) breaks free of his prison and fights to save his homeland from an ancient evil connecting the lives she could have led in other universes.</p>       
               </div>
           </div>
         </Carousel.Item>
