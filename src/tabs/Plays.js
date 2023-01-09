@@ -1,28 +1,26 @@
 import './tabs.css'
-import Carousels from "../components/Carousels/Carousels";
 import ToggleTag from "../components/Toggle_Tag/ToggleTag";
-import { EventCategoryData } from "../components/JSON_Data/EventCategoryData";
-import SidebarEvents from "../components/Sidebar/SidebarEvents";
-import GridEvents from "../components/Grid/GridEvents";
+import { PlaysCategoryData } from "../components/JSON_Data/PlaysCategoryData";
+import SidebarPlays from "../components/Sidebar/SidebarPlays";
+import GridPlays from "../components/Grid/GridPlays";
 
-//Events page
+//plays page
 export default function Plays(){
-    const toggle = EventCategoryData.map((event) => (
+    const toggle = PlaysCategoryData.map((play) => (
         <ToggleTag
-            key={event.id}
-            name={event.eve}
+            key={play.id}
+            name={play.category}
             classname="round-toggle"
         />
     ));
 
     return (
         <>
-            <Carousels/>
             <div className="contents">
-                <SidebarEvents/>
+                <SidebarPlays/>
                 <div className="container">
                     {toggle}                
-                    <div><GridEvents/></div>
+                    <div><GridPlays/></div>
                 </div>
             </div>
         </>
