@@ -4,7 +4,7 @@ import Navbar from './components/Navibar/Navbar'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //routing library for React
 import Home from "./tabs/Home";
 import Movies from "./tabs/Movies/Movies";
-import { Stream } from "./tabs/Stream";
+import Stream from "./tabs/Stream";
 import Events from "./tabs/Events";
 import Plays from "./tabs/Plays";
 import { Sports } from "./tabs/Sports";

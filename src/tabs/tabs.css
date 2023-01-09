@@ -192,3 +192,24 @@ ul{
     flex-direction: row;
     margin: 5px 50px 5px 50px;
 }
+
+/* STYLE FOR STREAM PAGE */
+.carousel-container{
+    margin: 0;
+}
+.top-info-display{
+    background-color: #2b3149;
+    padding: 40px 40px 40px 140px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+.movie-info-thumbnail{
+    float: left;
+    object-fit: cover;
+}
+.movie-info-container{
+    float: right;
+    display: flow-root;
+    color: rgb(255, 255, 255);
+}
